@@ -1851,7 +1851,7 @@ which does not exist, yet. -->
 <item id="146" name="crossbow">
 	<property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowPrefab" />
 	<property name="Material" value="metal" />
-	<property name="RepairTools" value="forgedIron" />
+	<property name="RepairTools" value="wood" />
 	<property name="HoldType" value="26" />
  	<property name="FuelValue" value="70" />
 	<property name="EconomicValue" value="220" />
@@ -1863,7 +1863,7 @@ which does not exist, yet. -->
 		<property name="Hitmask_override" value="Arrow" />
 		<property name="Delay" value="0.5" />
 		<property name="Magazine_size" value="1" />
-		<property name="Magazine_items" value="ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt" />
+		<property name="Magazine_items" value="crossbowBolt, ironCrossbowBolt, steelCrossbowBolt, explodingCrossbowBolt" />
 		<property name="Rays_spread" value="0.012" />
 		<property name="Reload_time" value="1.4" />
 		<property name="Bullet_icon" value="uzi" />

@@ -335,7 +335,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="arrow" count="10">
-	<ingredient name="rockSmall" count="1"/>
+	<ingredient name="rockSmall" count="1" craft_exp_gain="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="10"/>
 </recipe>
@@ -1168,12 +1168,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="scrapPlastics" count="4"/>
 </recipe>
 
-<recipe name="explodingCrossbowBolt" count="1" craft_area="workbench">
+<recipe name="explodingCrossbowBolt" count="5" craft_area="workbench" craft_exp_gain="1">
 	<ingredient name="steelArrowHead" count="1"/>
 	<ingredient name="gunPowder" count="8"/>
 	<ingredient name="ductTape" count="1"/>
 	<ingredient name="wood" count="1"/>
-	<ingredient name="feather" count="1"/>
+	<ingredient name="feather" count="5"/>
 </recipe>
 
 <recipe name="fertilizer" count="1" craft_area="chemistryStation" craft_tool="beaker">
@@ -1242,7 +1242,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cobblestones" count="10"/>
 </recipe>
 
-<recipe name="flamingArrow" count="1" craft_area="workstationArmory">
+<recipe name="flamingArrow" count="3" craft_area="workstationArmory" craft_exp_gain="1">
 	<ingredient name="steelArrow" count="1"/>
 	<ingredient name="gunPowder" count="2"/>
 	<ingredient name="cloth" count="1"/>
@@ -1525,10 +1525,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="50"/>
 </recipe>
 
-<recipe name="ironArrow" count="1">
+<recipe name="ironArrow" count="10" craft_exp_gain="1">
 	<ingredient name="ironArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
-	<ingredient name="feather" count="1"/>
+	<ingredient name="feather" count="10"/>
 </recipe>
 
 <recipe name="ironArrowHead" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
@@ -1571,10 +1571,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="ironRingsRivets" count="4"/>
 </recipe>
 
-<recipe name="ironCrossbowBolt" count="1">
+<recipe name="ironCrossbowBolt" count="10">
 	<ingredient name="ironArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
-	<ingredient name="feather" count="1"/>
+	<ingredient name="feather" count="10"/>
 </recipe>
 
 <recipe name="ironDoor1_v1" count="1" craft_area="workbench">
@@ -2272,10 +2272,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="scrapIron" count="50"/>
 </recipe>
 
-<recipe name="steelArrow" count="1">
+<recipe name="steelArrow" count="10" craft_exp_gain="1">
 	<ingredient name="steelArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
-	<ingredient name="feather" count="1"/>
+	<ingredient name="feather" count="10"/>
 </recipe>
 
 <recipe name="steelArrowHead" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
@@ -2283,10 +2283,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="steelCrossbowBolt" count="1">
+<recipe name="steelCrossbowBolt" count="10" craft_exp_gain="1">
 	<ingredient name="steelArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
-	<ingredient name="feather" count="1"/>
+	<ingredient name="feather" count="10"/>
 </recipe>
 
 <recipe name="stone" count="1" craft_area="cementMixer">
@@ -4968,12 +4968,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="shotgunSlug" count="1"/>
 </recipe>
 
-<recipe name="arrow" count="10" craft_area="workstationArmory">
+<recipe name="arrow" count="10" craft_area="workstationArmory" craft_exp_gain="1">
 	<ingredient name="rockSmall" count="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="5"/>
 </recipe>
-<recipe name="ironArrow" count="10" craft_area="workstationArmory">
+<recipe name="ironArrow" count="10" craft_area="workstationArmory" craft_exp_gain="1">
 	<ingredient name="ironArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="5"/>
@@ -4981,7 +4981,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="ironArrow" count="1" craft_area="workstationArmory" craft_exp_gain="0">
 	<ingredient name="ironCrossbowBolt" count="1"/>
 </recipe>
-<recipe name="steelArrow" count="10" craft_area="workstationArmory">
+<recipe name="steelArrow" count="10" craft_area="workstationArmory" craft_exp_gain="1">
 	<ingredient name="steelArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="5"/>
@@ -4989,7 +4989,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="steelArrow" count="1" craft_area="workstationArmory" craft_exp_gain="0">
 	<ingredient name="steelCrossbowBolt" count="1"/>
 </recipe>
-<recipe name="crossbowBolt" count="10">
+<recipe name="crossbowBolt" count="10" craft_exp_gain="1">
 	<ingredient name="rockSmall" count="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="10"/>
@@ -4997,9 +4997,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="crossbowBolt" count="10" craft_area="workstationArmory" craft_exp_gain="0">
 	<ingredient name="rockSmall" count="1"/>
 	<ingredient name="wood" count="1"/>
-	<ingredient name="feather" count="10"/>
+	<ingredient name="feather" count="5"/>
 </recipe>
-<recipe name="ironCrossbowBolt" count="10" craft_area="workstationArmory">
+<recipe name="ironCrossbowBolt" count="10" craft_area="workstationArmory" craft_exp_gain="1">
 	<ingredient name="ironArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="5"/>
@@ -5007,7 +5007,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="ironCrossbowBolt" count="1" craft_area="workstationArmory" craft_exp_gain="0">
 	<ingredient name="ironArrow" count="1"/>
 </recipe>
-<recipe name="steelCrossbowBolt" count="10" craft_area="workstationArmory">
+<recipe name="steelCrossbowBolt" count="10" craft_area="workstationArmory" craft_exp_gain="1">
 	<ingredient name="steelArrowHead" count="1"/>
 	<ingredient name="wood" count="1"/>
 	<ingredient name="feather" count="5"/>

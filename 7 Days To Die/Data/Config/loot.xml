@@ -3003,7 +3003,7 @@
 	<lootgroup name="SurvivalGear" count="all">	
 		<item group="Survival_Shirts"/>
 	    <item group="Survival_Pants"/>
-		<item name="wornBoots" quality="50,170" count="1"/>
+		<item name="wornBoots" quality="170,170" count="1"/>
 		<item name="canBeef" count="4"/>
 		<item name="painkillers" count="2"/>
 		<item name="bottledWater" count="5"/>	
