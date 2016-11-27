@@ -1537,8 +1537,8 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="ironBars" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
-	<ingredient name="unit_iron" count="40"/>
-	<ingredient name="unit_clay" count="20"/>
+	<ingredient name="unit_iron" count="8"/>
+	<ingredient name="unit_clay" count="4"/>
 </recipe>
 
 <recipe name="ironBoots" count="1" craft_area="workstationArmory" craft_tool="weldingTorch" craft_exp_gain="10">
@@ -1604,6 +1604,9 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="leatherBoots" count="1" craft_area="workstationArmory" craft_tool="tanningRack" craft_exp_gain="10">
 	<ingredient name="leather" count="5"/>
+</recipe>
+<recipe name="coal" count="1" craft_area="campfire">
+	<ingredient name="wood" count="2"/>
 </recipe>
 <!--
 <recipe name="leatherDuster" count="1">

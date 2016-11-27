@@ -2172,7 +2172,7 @@ which does not exist, yet. -->
 	<property name="HandMeshfile" value="Items/Misc/crossbow_bolt_hand_stonePrefab" />
 	<property name="HoldType" value="32" />
 	<property name="Material" value="wood" />
-	<property name="Stacknumber" value="250" />
+	<property name="Stacknumber" value="500" />
 	<property name="FuelValue" value="8" />
 	<property name="EconomicValue" value="11" />
 	<property name="EconomicBundleSize" value="5" />
