@@ -15144,6 +15144,7 @@ kind of free
 	</property>
 	<drop event="Destroy" count="0" />
 	<drop event="Harvest" name="rawMeat" count="2" />
+	<drop event="Harvest" name="potassiumNitratePowder" count="1,2" />
   </block>
 	<block id="1993" name="chickenNest">
     <property name="Class" value="Loot" />
