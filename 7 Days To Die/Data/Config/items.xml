@@ -12305,7 +12305,7 @@ which does not exist, yet. -->
 </item>
 <item id="1994" name="scrapIronAxe">
 	<property name="Extends" value="stoneAxe" />
-	<property name="RepairTools" value="scrapIron" />
+	<property name="RepairTools" value="ironFragment" />
 	<property name="EconomicValue" value="5" />
 	<property name="Material" value="metal" />
 	<property class="Attributes">
@@ -12318,7 +12318,7 @@ which does not exist, yet. -->
 </item>
 <item id="1995" name="scrapIronPickaxe">
 	<property name="Extends" value="pickaxeIron" />
-	<property name="RepairTools" value="rawIron" />
+	<property name="RepairTools" value="ironFragment" />
 	<property name="EconomicValue" value="5" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="5,10" />
@@ -12329,7 +12329,7 @@ which does not exist, yet. -->
 </item>
 <item id="1996" name="scrapIronShovel">
 	<property name="Extends" value="shovelIron" />
-	<property name="RepairTools" value="rawIron" />
+	<property name="RepairTools" value="ironFragment" />
 	<property name="EconomicValue" value="5" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,13" />
