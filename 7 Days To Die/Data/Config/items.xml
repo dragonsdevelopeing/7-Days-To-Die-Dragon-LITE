@@ -1858,10 +1858,12 @@ which does not exist, yet. -->
  	<property name="DegradationBreaksAfter" value="false" />
 	<property name="SoundJammed" value="ItemNeedsRepair" />
  	<property name="SoundDestroy" value="wooddestroy1" />
-	<property class="Action0"> <!-- AttackAction -->
-		<property name="Class" value="Launcher" />
+	<property name="CrosshairOnAim" value="true" />
+	<property name="CrosshairUpAfterShot" value="true" />
 		<property name="Crosshair_min_distance" value="30" />
 		<property name="Crosshair_max_distance" value="100" />
+	<property class="Action0"> <!-- AttackAction -->
+		<property name="Class" value="Launcher" />
 		<property name="Hitmask_override" value="Arrow" />
 		<property name="Delay" value="0.5" />
 		<property name="Magazine_size" value="1" />
