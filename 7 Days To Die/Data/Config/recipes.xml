@@ -1482,7 +1482,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="hayBaleBlock" count="1">
 	<ingredient name="yuccaFibers" count="10"/>
 </recipe>
-
 <recipe name="herbalAntibiotics" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="blueberries" count="5"/>
 	<ingredient name="mushrooms" count="3"/>
@@ -1605,7 +1604,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="leatherBoots" count="1" craft_area="workstationArmory" craft_tool="tanningRack" craft_exp_gain="10">
 	<ingredient name="leather" count="5"/>
 </recipe>
-<recipe name="coal" count="1" craft_area="campfire">
+<recipe name="coal" count="1" craft_area="campfire" craft_exp_gain="2">
 	<ingredient name="wood" count="2"/>
 </recipe>
 <!--
@@ -2337,7 +2336,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="trapSpikesNew" count="1" craft_exp_gain="25">
-	<ingredient name="wood" count="100"/>
+	<ingredient name="wood" count="20"/>
 </recipe>
 
 <recipe name="treePlant02" count="1">
@@ -3552,7 +3551,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="2"/>
 </recipe>
 <recipe name="scrapIronPickaxe" count="1">
-	<ingredient name="scrapIron" count="15"/>
+	<ingredient name="rawIron" count="10"/>
 	<ingredient name="crudeNail" count="2"/>
 	<ingredient name="wood" count="20"/>
 </recipe>

@@ -1860,6 +1860,8 @@ which does not exist, yet. -->
  	<property name="SoundDestroy" value="wooddestroy1" />
 	<property class="Action0"> <!-- AttackAction -->
 		<property name="Class" value="Launcher" />
+		<property name="Crosshair_min_distance" value="30" />
+		<property name="Crosshair_max_distance" value="100" />
 		<property name="Hitmask_override" value="Arrow" />
 		<property name="Delay" value="0.5" />
 		<property name="Magazine_size" value="1" />
@@ -9549,6 +9551,8 @@ which does not exist, yet. -->
 </item>
 	<item id="1624" name="crossbowRepeater">
 		<property name="Extends" value="crossbow" />
+		<property name="Crosshair_min_distance" value="30" />
+		<property name="Crosshair_max_distance" value="100" />
 		<property name="DescriptionKey" value="crossbowRepeaterDesc"/>
 		<property class="Action0">
 		<property name="Magazine_size" value="3" />
@@ -12314,23 +12318,23 @@ which does not exist, yet. -->
 </item>
 <item id="1995" name="scrapIronPickaxe">
 	<property name="Extends" value="pickaxeIron" />
-	<property name="RepairTools" value="scrapIron" />
+	<property name="RepairTools" value="rawIron" />
 	<property name="EconomicValue" value="5" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="5,10" />
-		<property name="BlockDamage" value="19,30" />
-		<property name="DegradationMax" value="200,600" />
+		<property name="BlockDamage" value="21,35" />
+		<property name="DegradationMax" value="200,800" />
 		<property name="DegradationRate" value="2,2" />
 	</property>
 </item>
 <item id="1996" name="scrapIronShovel">
 	<property name="Extends" value="shovelIron" />
-	<property name="RepairTools" value="scrapIron" />
+	<property name="RepairTools" value="rawIron" />
 	<property name="EconomicValue" value="5" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,13" />
 		<property name="BlockDamage" value="16,40" />
-		<property name="DegradationMax" value="200,600" />
+		<property name="DegradationMax" value="200,800" />
 		<property name="DegradationRate" value="2,2" />
 	</property>
 </item>

@@ -3517,7 +3517,7 @@ group desc for stuff like metal siding
 
 <block id="408" name="trapSpikesNew"> <!-- 6 stages total -->
 	<property name="Class" value="TrunkTip" />
-	<property name="Damage" value="5" />
+	<property name="Damage" value="7" />
 	<property name="Damage_received" value="40" />
 	<property name="Material" value="MtrapSpikes1" />
 	<property name="Shape" value="Ext3dModel" />
