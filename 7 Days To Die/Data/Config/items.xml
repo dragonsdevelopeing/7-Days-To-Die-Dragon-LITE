@@ -14589,7 +14589,7 @@ which does not exist, yet. -->
 		<property name="Material" value="Survivor Notes" />
 		<property name="HoldType" value="23" />
 		<property name="Weight" value="4" />
-		<property name="Stacknumber" value="50" />
+		<property name="Stacknumber" value="250" />
 		<property class="Action1">
 			<property name="Class" value="Repair" />
 			<property name="Upgrade_hit_offset" value="-2" />
@@ -14874,6 +14874,7 @@ which does not exist, yet. -->
 	<property name="DropScale" value="4" />
 	<property name="IsDeveloper" value="true" />
 	<property name="EconomicValue" value="50" />
+	<property name="Stacknumber" value="250" />
 </item>
 <item id="2701" name="questItemRing">
 	<property name="Extends" value="questItem" />
