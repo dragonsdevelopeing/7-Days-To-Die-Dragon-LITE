@@ -12330,8 +12330,8 @@ which does not exist, yet. -->
 	</property>
 </item>
 <item id="1996" name="scrapIronShovel">
-	<property name="Extends" value="wood" />
-	<property name="RepairTools" value="scrapIron" />
+	<property name="Extends" value="shovelIron" />
+	<property name="RepairTools" value="wood" />
 	<property name="EconomicValue" value="5" />
 	<property class="Attributes">
 		<property name="EntityDamage" value="6,13" />
