@@ -2220,6 +2220,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="80"/>
 </recipe>
 
+<recipe name="canEmpty" count="1" craft_area="forge" craft_tool="anvil">
+	<ingredient name="unit_iron" count="1"/>
+</recipe>
+
 <recipe name="shovelSteel" count="1" craft_area="workbench">
 	<ingredient name="toolHeadSteelShovel" count="1"/>
 	<ingredient name="wood" count="20"/>
