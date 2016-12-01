@@ -114,6 +114,28 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="762mmBulletCasing" count="1" />
 </recipe>
 
+<recipe name="50CalBullet" count="10" craft_area="workstationArmory" craft_tool="bulletTumbler" craft_exp_gain="1">
+	<ingredient name="HollowTip" count="1" />
+    <ingredient name="gunPowder" count="4"/>
+	<ingredient name="50CalBulletCasing" count="1" />	
+</recipe>
+<recipe name="50calBulletINC" count="10" craft_area="workstationArmory" craft_tool="bulletTumbler" craft_exp_gain="0">
+	<ingredient name="HollowTip" count="1" />
+    <ingredient name="gunPowder" count="4"/>
+	<ingredient name="50CalBulletCasing" count="1" />
+</recipe>
+<recipe name="50CalBulletHP" count="10" craft_area="workstationArmory" craft_tool="bulletTumbler" craft_exp_gain="0">
+	<ingredient name="HollowTip" count="1" />
+    <ingredient name="gunPowder" count="4"/>
+	<ingredient name="50CalBulletCasing" count="1" />	
+</recipe>
+
+<recipe name="50CalBulletEX" count="10" craft_area="workstationArmory" craft_tool="bulletTumbler" craft_exp_gain="0">
+	<ingredient name="HollowTip" count="1" />
+	<ingredient name="gunPowder" count="4"/>
+	<ingredient name="50CalBulletCasing" count="1" />	
+</recipe>
+
 <recipe name="9mmBullet" count="1" craft_area="workstationArmory">
 	<ingredient name="bulletTip" count="1"/>
 	<ingredient name="gunPowder" count="1"/>
@@ -597,6 +619,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe> -->
 
 <!-- Mod Casings -->
+<recipe name="50CalBulletCasing" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_brass" count="3"/>
+	<ingredient name="unit_clay" count="1"/>
+</recipe>
 <recipe name="9mmBulletCasing" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
 	<ingredient name="unit_brass" count="2"/>
 	<ingredient name="unit_clay" count="1"/>
@@ -689,6 +715,182 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="partsChainsaw_blade" count="1"/>
 	<ingredient name="mechanicalKit" count="1"/>
 	<ingredient name="forgedSteel" count="2"/>
+</recipe>
+<recipe name="partsSniperRifle_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300" craft_area="forge" craft_tool="calipers" material_based="true"/>
+	<ingredient name="unit_clay" count="15"/>
+</recipe>	
+<recipe name="partsSniperRifle_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="15"/>
+</recipe>	
+<recipe name="partsSniperRifle_stock" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="15"/>
+</recipe>	
+	<recipe name="partsSniperRifle_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="400"/>
+	<ingredient name="unit_clay" count="15"/>
+</recipe>
+	<recipe name="partsPumpShotgun_barrelShort" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPumpShotgun_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPumpShotgun_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPumpShotgun_stockShort" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>	
+	<recipe name="partsRocketLauncher_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="500"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+	<recipe name="partsRocketLauncher_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="500"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+	<recipe name="partsRocketLauncher_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="500"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+	<recipe name="partsRocketLauncher_stock" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="500"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>	
+	<recipe name="partsPumpShotgun_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPumpShotgun_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPumpShotgun_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPumpShotgun_stock" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPistol_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPistol_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPistol_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsPistol_grip" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="parts44Magnum_frame" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="parts44Magnum_cylinder" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="parts44Magnum_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="parts44Magnum_grip" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsMP5_stock" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsMP5_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsMP5_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsMP5_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsAK47_stock" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsAK47_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsAK47_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsAK47_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsHuntingRifle_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsHuntingRifle_stock" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsHuntingRifle_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>
+	<recipe name="partsHuntingRifle_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="300"/>
+	<ingredient name="unit_clay" count="10"/>
+</recipe>	
+	<recipe name="parts50CalSniperRifle_barrel" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="30"/>
+</recipe>
+	<recipe name="parts50CalSniperRifle_receiver" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="30"/>
+</recipe>
+	<recipe name="parts50CalSniperRifle_stock" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="30"/>
+</recipe>
+	<recipe name="parts50CalSniperRifle_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="30"/>
+</recipe>
+	<recipe name="partsDesertEagle_frame" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="25"/>
+</recipe>
+	<recipe name="partsDesertEagle_cylinder" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="25"/>
+</recipe>
+	<recipe name="partsDesertEagle_parts" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="25"/>
+</recipe>
+	<recipe name="partsDesertEagle_grip" count="1" craft_area="forge" craft_tool="calipers" material_based="true">
+	<ingredient name="unit_iron" count="650"/>
+	<ingredient name="unit_clay" count="25"/>
 </recipe>
 
 <recipe name="charredMeat" count="1" craft_area="campfire">
@@ -1432,6 +1634,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="partsPistol_grip" count="1"/>
 </recipe>
 
+<recipe name="gun50CalSniperRifle" count="1" craft_area="workstationArmory">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="parts50CalSniperRifle_barrel" count="1"/>
+	<ingredient name="parts50CalSniperRifle_receiver" count="1"/>
+	<ingredient name="parts50CalSniperRifle_stock" count="1"/>
+	<ingredient name="parts50CalSniperRifle_parts" count="1"/>
+</recipe>
+
+<recipe name="gunDesertEagle" count="1" craft_area="workstationArmory">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="partsDesertEagle_frame" count="1"/>
+	<ingredient name="partsDesertEagle_cylinder" count="1"/>
+	<ingredient name="partsDesertEagle_grip" count="1"/>
+	<ingredient name="partsDesertEagle_parts" count="1"/>
+</recipe>
+
 <recipe name="gunPowder" count="1" craft_area="chemistryStation">
 	<ingredient name="coal" count="1"/>
 	<ingredient name="potassiumNitratePowder" count="1"/>
@@ -1907,7 +2125,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="plainsGround" count="1">
-	<ingredient name="dirtFragment" count="12"/>
+	<ingredient name="dirtFragment" count="6"/>
 </recipe>
 
 <recipe name="plantFiberGloves" count="1">
@@ -3504,12 +3722,23 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="partsSniperRifle_stock" count="1"/>
 	<ingredient name="partsSniperRifle_parts" count="1"/>
     </recipe>
+	<recipe name="gun50CalSniperRifle" count="1" craft_area="assembly">
+	<ingredient name="flashlight02" count="0"/>
+	<ingredient name="partsSniperRifle_barrel" count="1"/>
+	<ingredient name="partsSniperRifle_receiver" count="1"/>
+	<ingredient name="partsSniperRifle_parts" count="1"/>
+	<ingredient name="partsSniperRifle_stock" count="1"/>
+	</recipe>
 	<recipe name="ironCrossbow" count="1" >
 	<ingredient name="forgedIron" count="20"/>
 	<ingredient name="leather" count="4"/>
 	<ingredient name="glue" count="2"/>
 	<ingredient name="ductTape" count="1"/>
 	<ingredient name="wood" count="10"/>
+    </recipe>
+	<recipe name="scopeCrossbowRepeater" count="1" >
+	<ingredient name="crossbowRepeater" count="1"/>
+	<ingredient name="gunScope" count="1"/>
     </recipe>
 	<recipe name="ironBow" count="1" >
 	<ingredient name="forgedIron" count="4" />
@@ -5410,3 +5639,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="20"/>
 </recipe> -->
 </recipes>
+
+		<!-- Dragons Mod -->
+
+

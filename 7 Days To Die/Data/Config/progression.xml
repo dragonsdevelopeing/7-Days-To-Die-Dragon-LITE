@@ -243,7 +243,7 @@
 		<recipe name="weedCleaver" unlock_level="10"/>
 		<recipe name="shovelSteel" unlock_level="10"/>
 		
-		<recipe name="pickaxeIron" unlock_level="20"/>
+		<recipe name="pickIron" unlock_level="20"/>
 		<recipe name="pickaxeSteel" unlock_level="40"/>
 	</action_skill>
 
@@ -368,7 +368,8 @@
 		<recipe name="gunPistolSilenced" unlock_level="30"/>
 		<recipe name="gun44Magnum" unlock_level="40"/>
 		<recipe name="gun44MagnumSilenced" unlock_level="50"/>
-	</action_skill>
+		<recipe name="gun50Cal" unlock_level="50"/>
+		</action_skill>
 	<perk name="The Gunman" icon="pistol" description_key="theGunmanDesc" title_key="theGunman" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 		<requirement perk_level="1" required_skill_name="Pistols" required_skill_level="1"/>
 		<requirement perk_level="2" required_skill_name="Pistols" required_skill_level="20"/>
@@ -559,6 +560,7 @@
 		<recipe name="gunSniperSilenced" unlock_level="50"/>
 		<recipe name="gunSniperRifleHPScope" unlock_level="50"/>
 		<recipe name="gunSniperRifleHPScopeSilenced" unlock_level="50"/>
+		<recipe name="gun50CalSniper" unlock_level="60"/>		
 	</action_skill>
 	<perk name="Better Lead Than Dead" icon="rifle" description_key="betterLeadThanDeadDesc" title_key="betterLeadThanDead" max_level="5" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="firearms">
 		<requirement perk_level="1" required_skill_name="Rifles" required_skill_level="1"/>
@@ -777,7 +779,15 @@
 			<multiply skill_level="49,70" value=".668,.44" />
 			<multiply skill_level="70,100" value=".44,.167" /> <!-- =10 points at QL 600 -->
 		</effect>
-	</crafting_skill>
+			<recipe name="parts50CalSniperRifle_stock" unlock_level="30"/>
+			<recipe name="parts50CalSniperRiflee_receiver" unlock_level="30"/>
+			<recipe name="parts50CalSniperRifle_parts" unlock_level="30"/>
+			<recipe name="parts50CalSniperRifle_barrel" unlock_level="30"/>
+			<recipe name="partsDesertEagle_grip" unlock_level="30"/>
+			<recipe name="partsDesertEagle_cylinder" unlock_level="30"/>
+			<recipe name="partsDesertEagle_parts" unlock_level="30"/>
+			<recipe name="partsDesertEagle_frame" unlock_level="30"/>
+			</crafting_skill>
 	<crafting_skill name="Tool Smithing" icon="tool_smithing" description_key="toolSmithingDesc" title_key="toolSmithing" group="tools">
 		<effect name="CraftingTime">
 			<multiply skill_level="1,5" value="1,.931" />
