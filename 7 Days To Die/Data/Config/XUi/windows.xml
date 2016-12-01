@@ -600,7 +600,7 @@
 		</panel>
 		<sprite depth="0" name="gridBackground" color="255,255,255,1" type="sliced" pos="0, 0" globalopacity="true" on_press="true" />
 		<rect name="content" pos="3,-49" >
-			<grid depth="12" name="queue" rows="10" cols="9" cell_width="75" cell_height="75" repeat_content="true" controller="LootContainer">
+			<grid depth="12" name="queue" rows="10" cols="10" cell_width="75" cell_height="75" repeat_content="true" controller="LootContainer">
 				<item_stack name="0"/>
 			</grid>
 		</rect>
@@ -805,13 +805,16 @@
 		</panel>
 		
 		<panel name="content" width="100%" height="303" depth="0" pos="0,-46" disableautobackground="true">
+				<!-- <sprite name="background" color="[black]" type="sliced" globalopacity="true"/> -->
 				<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" width="603" height="303" color="[black]" type="sliced" fillcenter="false" on_press="true" />	
-				<grid depth="1" name="inventory" rows="5" cols="9" pos="3,-3" cell_width="67" cell_height="67" controller="Backpack" repeat_content="true" >
-					<item_stack_inventory name="0"/>
+				<grid depth="1" name="inventory" rows="4" cols="8" pos="3,-3" cell_width="75" cell_height="75" controller="Backpack" repeat_content="true" >
+					<item_stack name="0"/>
 				</grid>
+			<!-- VALMOD remove if offline-->
 			<sprite depth="1" name="background" pos="0,0" color="[black]" type="sliced">
-				<texture depth="500" name="InventoryBackground" width="603" height="332" pos="3,-3" texture="@file:Mods\SMX\Textures\Misc\inventorybg.png" material="Materials/Transparent Colored"/>
+				<texture depth="500" name="InventoryBackground" width="597" height="297" pos="3,-3" texture="@file:Mods\SMX\Textures\Misc\inventorybg.png" material="Materials/Transparent Colored"/>
 			</sprite>
+			<!-- Valmod Remove if Offline-->
 		</panel>
 	</window>
 	
