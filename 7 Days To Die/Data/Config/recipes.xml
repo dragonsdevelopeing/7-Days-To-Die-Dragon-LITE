@@ -115,12 +115,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="50CalBullet" count="10" craft_area="workstationArmory" craft_tool="bulletTumbler" craft_exp_gain="1">
-	<ingredient name="HollowTip" count="1" />
+	<ingredient name="bulletTip" count="1" />
     <ingredient name="gunPowder" count="4"/>
 	<ingredient name="50CalBulletCasing" count="1" />	
 </recipe>
 <recipe name="50calBulletINC" count="10" craft_area="workstationArmory" craft_tool="bulletTumbler" craft_exp_gain="0">
-	<ingredient name="HollowTip" count="1" />
+	<ingredient name="bulletTip" count="1" />
     <ingredient name="gunPowder" count="4"/>
 	<ingredient name="50CalBulletCasing" count="1" />
 </recipe>
@@ -131,7 +131,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="50CalBulletEX" count="10" craft_area="workstationArmory" craft_tool="bulletTumbler" craft_exp_gain="0">
-	<ingredient name="HollowTip" count="1" />
+	<ingredient name="bulletTip" count="1" />
 	<ingredient name="gunPowder" count="4"/>
 	<ingredient name="50CalBulletCasing" count="1" />	
 </recipe>
