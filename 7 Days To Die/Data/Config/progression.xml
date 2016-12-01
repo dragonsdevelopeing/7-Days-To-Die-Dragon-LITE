@@ -676,7 +676,8 @@
 		<recipe name="ironBow" unlock_level="20"/>
 		<recipe name="ironCrossbow" unlock_level="40"/>
 		<recipe name="crossbowRepeater" unlock_level="50"/>
-	</action_skill>
+		<recipe name="scopeCrossbowRepeater" unlock_level="60"/>
+		</action_skill>
 
 	<crafting_skill name="Fletching" icon="archery" description_key="fletchingDesc" title_key="fletching" group="weapons">
 		<effect name="CraftingTime">
