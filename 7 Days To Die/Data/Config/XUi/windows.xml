@@ -600,7 +600,7 @@
 		</panel>
 		<sprite depth="0" name="gridBackground" color="255,255,255,1" type="sliced" pos="0, 0" globalopacity="true" on_press="true" />
 		<rect name="content" pos="3,-49" >
-			<grid depth="12" name="queue" rows="10" cols="9" cell_width="75" cell_height="75" repeat_content="true" controller="LootContainer">
+			<grid depth="12" name="queue" rows="10" cols="10" cell_width="75" cell_height="75" repeat_content="true" controller="LootContainer">
 				<item_stack name="0"/>
 			</grid>
 		</rect>

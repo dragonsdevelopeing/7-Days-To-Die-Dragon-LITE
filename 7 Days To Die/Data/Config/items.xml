@@ -846,115 +846,6 @@ Mesh files no longer used:
 			<property name="BlockDamage" value="1,1" />
 		</property>
 </item>
-<item id="52" name="gun50CalSniperRifle">
-	<property name="Meshfile" value="Items/Weapons/Ranged/SniperRifle/sniperRiflePrefab" />
-	<property name="Material" value="metal" />
-	<property name="RepairTools" value="repairKit" />
-	<property name="HoldType" value="11" />
- 	<property name="DegradationBreaksAfter" value="false" />
-	<property name="SoundJammed" value="Weapons/weapon_jam" />
-	<property name="Attachments" value="flashlight02" />
-	<property class="Parts">
-		<property name="Stock" value="parts50CalSniperRifle_stock" />
-		<property name="Receiver" value="parts50CalSniperRifle_receiver" />
-		<property name="Pump" value="parts50CalSniperRifle_parts" />
-		<property name="Barrel" value="parts50CalSniperRifle_barrel" />
-	</property>
-	<property class="Action0"> <!-- AttackAction -->
-		<property name="Class" value="Ranged" />
-		<property name="Delay" value="0.8" />
-		<property name="Crosshair_min_distance" value="30" />
-		<property name="Crosshair_max_distance" value="100" />
-		<property name="Magazine_size" value="7" />
-		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, 50CalBulletEX, Unload" />
-		<property name="Magazine_item_ray_counts" value="1, 1, 1" />
-		<property name="Magazine_item_ray_spreads" value="0, 0, 0" />
-		<property name="Reload_time" value="3" />
-		<property name="Bullet_icon" value="uzi" />
-		<property name="Sound_start" value="Weapons/Ranged/SniperRifle/sniperrifle_fire" />
-		<property name="Sound_repeat" value="" />
-		<property name="Sound_end" value="" />
-		<property name="Sound_empty" value="Weapons/weapon_empty" />
-		<property name="Sound_reload" value="Weapons/Ranged/SniperRifle/sniperrifle_reload" />
-		<property name="Particles_muzzle_fire" value="nozzleflashuzi" />
-		<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
-		<property name="DamageBonus.head" value="12" />
-		<property name="DamageBonus.wood" value="5" />
-		<property name="DamageBonus.earth" value=".2" />
-		<property name="DamageBonus.glass" value="25" />
-		<property name="ActionExp" value="3" />
-	</property>
-	<property class="Action1"> <!-- UseAction -->
-		<property name="Class" value="Zoom" />
-		<property name="Zoom_overlay" value="Items/Weapons/HUD/sniper_zoom_overlay" />
-		<property name="Zoom_max_out" value="45" />
-		<property name="Zoom_max_in" value="10" />
-	</property>
-	<property name="LightSource" value="lightSource" /> <!-- Start: Needed for the attachment flashlight -->
-	<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
-	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons" />
-	<property name="ActionSkillGroup" value="Rifles"/>
-	<property name="CraftingSkillGroup" value="Rifles"/>
-	<property name="RepairExpMultiplier" value="10.8"/>
-	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
-	<property class="Attributes">
-			<property name="BlockDamage" value="1,1" />
-		</property>
-</item>
-<item id="53" name="gunDesertEagle">
-	<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44MagnumPrefab" />
-	<property name="Material" value="metal" />
-	<property name="RepairTools" value="repairKit" />
-	<property name="HoldType" value="44" />
- 	<property name="DegradationBreaksAfter" value="false" />
-	<property name="SoundJammed" value="Weapons/weapon_jam" />
-	<property name="Attachments" value="flashlight02" />
-	<property class="Parts">
-		<property name="Grip" value="partsDesertEagle_grip" />
-		<property name="Cylinder" value="partsDesertEagle_cylinder" />
-		<property name="Parts" value="partsDesertEagle_parts" />
-		<property name="Frame" value="partsDesertEagle_frame" />
-	</property>
-	<property class="Action0"> <!-- AttackAction -->
-		<property name="Class" value="Ranged" />
-		<property name="Delay" value="0.34" />
-		<property name="Magazine_size" value="6" />
-		<property name="Magazine_items" value="50CalBullet, 50CalBulletHP, 50CalBulletINC, 50CalBulletEX, Unload" />
-		<property name="Magazine_item_ray_counts" value="1,1,1" />
-		<property name="Magazine_item_ray_spreads" value="0,0,0" />
-		<property name="Reload_time" value="4" />
-		<property name="Bullet_icon" value="pistol" />
-		<property name="Sound_start" value="Weapons/Ranged/44Magnum/44magnum_fire" />
-		<property name="Sound_repeat" value="" />
-		<property name="Sound_end" value="" />
-		<property name="Sound_empty" value="Weapons/weapon_empty" />
-		<property name="Sound_reload" value="Weapons/Ranged/44Magnum/44magnum_reload" />
-		<property name="Particles_muzzle_fire" value="nozzleflash" />
-		<property name="Particles_muzzle_smoke" value="nozzlesmoke" />
-		<property name="DamageBonus.head" value="4" />
-		<property name="DamageBonus.wood" value="4" />
-		<property name="DamageBonus.earth" value=".2" />
-		<property name="DamageBonus.glass" value="25" />
-		<property name="ActionExp" value="3" />
-	</property>
-	<property class="Action1"> <!-- UseAction -->
-		<property name="Class" value="Zoom" />
-		<property name="Zoom_max_out" value="35" />
-		<property name="Zoom_max_in" value="35" />
-	</property>
-	<property name="LightSource" value="lightSource" /> <!-- Start: Needed for the attachment flashlight -->
-	<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
-	<property name="AttachmentFlashlight" value="flashlight02" /> <!-- End: Needed for the attachment flashlight -->
-	<property name="Group" value="Ammo/Weapons" />
-	<property name="ActionSkillGroup" value="Pistols"/>
-	<property name="CraftingSkillGroup" value="Pistols"/>
-	<property name="RepairExpMultiplier" value="10.8"/>
-	<property name="PickupJournalEntry" value="gunAssemblyTip,augmentGunsTip" />
-	<property class="Attributes">
-			<property name="BlockDamage" value="1,1" />
-		</property>
-</item>
 
 <item id="54" name="gunRocketLauncher">
 	<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketlauncherPrefab" />
@@ -2424,62 +2315,7 @@ which does not exist, yet. -->
 	<property name="Group" value="Ammo/Weapons" />
 	<property name="CraftingSkillGroup" value="Fletching"/>
 </item>
-<item id="174" name="50CalBullet">
-		<property name="DescriptionKey" value="50CalBulletDesc"/>
-	<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab" />
-	<property name="Material" value="brass" />
-	<property name="HoldType" value="21" />
-	<property name="Stacknumber" value="500" /> <!-- STK ammo -->
-	<property name="EconomicValue" value="19" />
-	<property name="Group" value="Ammo/Weapons" />
-	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-	<property name="ActionExp" value="10" />
-</item>
-<item id="175" name="50CalBulletHP">
-		<property name="Extends" value="50CalBullet" />
-		<property name="DescriptionKey" value="50CalBulletHPDesc"/>
-		<property class="Attributes">
-			<property name="GetQualityFromWeapon" value="true" />
-			<property name="EntityDamage" value="18,20" />
-			<property name="BlockDamage" value="2,5" />
-			<property name="ApplyBuff" value="0.7,0.7" param1="stunned" />
-			<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-			<property name="ActionExp" value="10" />
-		</property>
-</item>
-<item id="177" name="50CalBulletEX">
-		<property name="Extends" value="50CalBullet" />
-		<property name="DescriptionKey" value="50CalBulletEXDesc"/>
-	<property class="Action1">
-		<property name="Class" value="Projectile" />
-		<property name="Buff" value="arrowCriticalBleedout" />
-		<property name="Buff_chance" value="0.5" />
-		<property name="Explosion.ParticleIndex" value="0" />
-		<!-- no expl. -->
-		<property name="DamageBonus.head" value="5" />
-		<property name="DamageBonus.glass" value="25" />
-		<property name="DamageBonus.wood" value="0.1" />
-		<property name="DamageBonus.earth" value="0" />
-		<property name="DamageBonus.metal" value="0" />
-		<property name="DamageBonus.cloth" value="0" />
-		<property name="Explosion.BlockDamage" value="50" />
-		<property name="Explosion.EntityDamage" value="80" />
-		<property name="Explosion.ParticleIndex" value="1" />
-		<property name="Explosion.RadiusBlocks" value="2" />
-		<property name="Explosion.RadiusEntities" value="2" />
-		<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-		<property name="ActionExp" value="10" />
-	</property>
-</item>
-<item id="178" name="50calBulletINC">
-		<property name="Extends" value="50CalBullet" />
-		<property name="DescriptionKey" value="BulletINCDesc"/>
-		<property class="Attributes">
-			<property name="GetQualityFromWeapon" value="true" />
-			<property name="BlockDamage" value="5,7" />
-			<property name="ApplyBuff" value="1,1" param1="burningSmall" />
-		</property>
-	</item>
+
 <!-- * * * * * * * * * * explosives / decoys / thrown items * * * * * * * * * * -->
 
 <item id="180" name="pipeBomb">
@@ -2660,62 +2496,6 @@ which does not exist, yet. -->
 	<property name="Group" value="Resources" />
 </item>
 
-<item id="2983" name="parts50CalSniperRifle_stock">
-	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="parts50CalSniperRifleGroupDesc"/>
-	<property name="PartType" value="Stock" />
-	<property name="Weight" value="30" />
-	<property class="Attributes">
-		<property name="DismembermentBaseChance" value="0.2,0.5"/>
-		<property name="DismembermentBonus" value="0,0.00050"/>
-		<property name="DegradationRate" value="15,21" />
-		<property name="DegradationMax" value="1700,7000" />
-	<property name="EconomicValue" value="875" />
-	<property name="ActionExp" value="10" />
-	</property>	
-</item>
-<item id="2984" name="parts50CalSniperRifle_receiver">
-	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
-	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="30" />
-	<property class="Attributes">
-		<property name="FalloffRange" value="65,190" />
-		<property name="DegradationMax" value="1700,7000" />
-	</property>
-	<property name="EconomicValue" value="875" />
-	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-	<property name="ActionExp" value="10" />	
-</item>
-<item id="2985" name="parts50CalSniperRifle_parts">
-	<property name="Extends" value="partsMaster" />
-	<property name="CustomIcon" value="partsPistol_parts" /> <!-- xxx -->
-	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
-	<property name="PartType" value="Pump" />
-	<property name="Weight" value="15" />
-	<property class="Attributes">
-		<property name="Accuracy" value=".5,0.008" />
-		<property name="DegradationMax" value="1700,7000" />
-	</property>
-	<property name="EconomicValue" value="875" />
-	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-	<property name="ActionExp" value="10" />	
-</item>
-<item id="2986" name="parts50CalSniperRifle_barrel">
-	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="partsSniperRifleGroupDesc"/>
-	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="40" />
-	<property class="Attributes">
-		<property name="EntityDamage" value="32.6,115" />
-		<property name="BlockDamage" value="8,20" />
-		<property name="DegradationMax" value="1700,7000" />
-	</property>
-	<property name="EconomicValue" value="875" />
-	<property name="CraftingSkillGroup" value="Weapon Smithing"/>
-	<property name="ActionExp" value="10" />	
-</item>
-
 <item id="210" name="partsPistol_grip">
 	<property name="Extends" value="partsMaster" />
 	<property name="DescriptionKey" value="partsPistolGroupDesc"/>
@@ -2807,16 +2587,6 @@ which does not exist, yet. -->
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
-<item id="220" name="partsDesertEagle_grip">
-	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="partsDesertEagleGroupDesc"/>
-	<property name="PartType" value="Stock" />
-	<property name="Weight" value="15" />
-	<property class="Attributes">
-		<property name="DegradationRate" value="20,35" />
-		<property name="DegradationMax" value="2000,10000" />
-	</property>
-</item>
 
 <item id="222" name="partsPumpShotgun_stockShort">
 	<property name="Extends" value="partsMaster" />
@@ -2886,28 +2656,6 @@ which does not exist, yet. -->
 	</property>
 	<property name="EconomicValue" value="675" />
 </item>
-<item id="228" name="partsDesertEagle_cylinder">
-	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="partsDesertEagleGroupDesc"/>
-	<property name="PartType" value="Receiver" />
-	<property name="Weight" value="10" />
-	<property class="Attributes">
-		<property name="FalloffRange" value="25,75" />
-		<property name="DegradationMax" value="2000,10000" />
-	</property>
-	<property name="EconomicValue" value="1125" />
-</item>
-<item id="229" name="partsDesertEagle_parts">
-	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="partsDesertEagleGroupDesc"/>
-	<property name="PartType" value="Pump" />
-	<property name="Weight" value="10" />
-	<property class="Attributes">
-		<property name="Accuracy" value="1,0.05" />
-		<property name="DegradationMax" value="2000,10000" />
-	</property>
-	<property name="EconomicValue" value="1125" />
-</item>
 
 <item id="230" name="partsMP5_stock">
 	<property name="Extends" value="partsMaster" />
@@ -2956,18 +2704,6 @@ which does not exist, yet. -->
 		<property name="DismembermentBonus" value="0,0"/>
 		-->
 		<property name="DegradationMax" value="2250,10000" />
-	</property>
-	<property name="EconomicValue" value="1125" />
-</item>
-<item id="234" name="partsDesertEagle_frame">
-	<property name="Extends" value="partsMaster" />
-	<property name="DescriptionKey" value="partsDesertEagleGroupDesc"/>
-	<property name="PartType" value="Barrel" />
-	<property name="Weight" value="20" />
-	<property class="Attributes">
-		<property name="EntityDamage" value="45.2,108" />
-		<property name="BlockDamage" value="10,24" />
-		<property name="DegradationMax" value="2000,10000" />
 	</property>
 	<property name="EconomicValue" value="1125" />
 </item>
@@ -9824,21 +9560,6 @@ which does not exist, yet. -->
 		<property name="Magazine_size" value="3" />
 		</property>
 	</item>
-<item id="2992" name="scopeCrossbowRepeater">
-		<property name="Extends" value="crossbow" />
-		<property name="Crosshair_min_distance" value="30" />
-		<property name="Crosshair_max_distance" value="100" />
-		<property name="DescriptionKey" value="scopecrossbowRepeaterDesc"/>
-		<property class="Action0">
-		<property name="Magazine_size" value="4" />
-		</property>
-		<property class="Action1">
-			<property name="Class" value="Zoom" />
-			<property name="Zoom_overlay" value="Items/Weapons/HUD/sniper_zoom_overlay" />
-			<property name="Zoom_max_out" value="40" />
-			<property name="Zoom_max_in" value="10" />
-		</property>
-</item>
 
 	<!-- Expanded Ammunition Types -->
 	<item id="1635" name="9mmBulletHP">
@@ -10001,10 +9722,7 @@ which does not exist, yet. -->
 		</property>
 		<property name="CraftingSkillGroup" value="Science"/>
 	</item>
-	<item id="1653" name="50CalBulletCasing">
-	<property name="Extends" value="bulletCasing" />
-	<property name="DescriptionKey" value="762mmBulletCasingDesc"/>
-</item>
+	
 	<!-- Admin Tools -->
 	<item id="1662" name="Admin Tool">
 	<property name="Degradation" value="500" param1="false" />
@@ -14871,7 +14589,7 @@ which does not exist, yet. -->
 		<property name="Material" value="Survivor Notes" />
 		<property name="HoldType" value="23" />
 		<property name="Weight" value="4" />
-		<property name="Stacknumber" value="250" />
+		<property name="Stacknumber" value="50" />
 		<property class="Action1">
 			<property name="Class" value="Repair" />
 			<property name="Upgrade_hit_offset" value="-2" />
@@ -15156,7 +14874,6 @@ which does not exist, yet. -->
 	<property name="DropScale" value="4" />
 	<property name="IsDeveloper" value="true" />
 	<property name="EconomicValue" value="50" />
-	<property name="Stacknumber" value="250" />
 </item>
 <item id="2701" name="questItemRing">
 	<property name="Extends" value="questItem" />
@@ -15807,4 +15524,3 @@ which does not exist, yet. -->
 </item>
 
 </items>
-
