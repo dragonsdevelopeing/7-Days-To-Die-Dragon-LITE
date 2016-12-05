@@ -1176,13 +1176,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="feather" count="5"/>
 </recipe>
 
-<recipe name="fertilizer" count="1" craft_area="chemistryStation" craft_tool="beaker">
+<recipe name="fertilizer" count="1" craft_time="180" craft_area="chemistryStation" craft_tool="beaker">
 	<ingredient name="turd" count="1"/>
 	<ingredient name="potassiumNitratePowder" count="1"/>
 	<ingredient name="dirtFragment" count="3"/>
 </recipe>
 
-<recipe name="fertilizer" count="1" craft_area="chemistryStation">
+<recipe name="fertilizer" count="1" craft_time="180" craft_area="chemistryStation">
 	<ingredient name="rottingFlesh" count="5"/>
 	<ingredient name="potassiumNitratePowder" count="1"/>
 	<ingredient name="dirtFragment" count="1"/>
