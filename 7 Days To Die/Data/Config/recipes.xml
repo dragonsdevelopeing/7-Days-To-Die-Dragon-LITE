@@ -3047,10 +3047,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="charcoalChips" count="1" craft_area="campfire" craft_tool="cookingPot">
 	<ingredient name="wood" count="1"/>
 </recipe>
-    <recipe name="moldyBread" count="2" >
+    <recipe name="moldyBread" count="2" craft_time="1" >
         <ingredient name="shamSandwich" count="1" />
     </recipe>
-    <recipe name="moldyBread" count="4" >
+    <recipe name="moldyBread" count="4" craft_time="1" >
         <ingredient name="moleSandwich" count="1" />
     </recipe>
 	<recipe name="fuelLog" count="1" craft_area="chemistryStation" craft_time="10">
@@ -3299,13 +3299,13 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
         <ingredient name="wood" count="4"/>
         <ingredient name="glue" count="4"/>
     </recipe>
-	<recipe name="animalFeed" count="1" >
+	<recipe name="animalFeed" count="1" craft_time="1" >
   <ingredient name="pineSeed" count="3" />
 	</recipe>
-	<recipe name="animalFeed" count="1" >
+	<recipe name="animalFeed" count="1" craft_time="1" >
   <ingredient name="mapleSeed" count="3" />
 	</recipe>
-	<recipe name="animalFeed" count="1" >
+	<recipe name="animalFeed" count="1" craft_time="1" >
   <ingredient name="moldyBread" count="1" />
 	</recipe>
 	<recipe name="animalSnare" count="1" >
