@@ -285,7 +285,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="aloePlant" count="4"/>
 </recipe>
 
-<recipe name="aloeSeed" count="1" craft_time="1">
+<recipe name="aloeSeed" count="2" craft_time="1">
 	<ingredient name="aloePlant" count="1"/>
 </recipe>
 
@@ -462,7 +462,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="bowlWater" count="1"/>
 </recipe>
 
-<recipe name="blueberrySeed" count="1"> <!--farmAlt1<recipe name="plantedBlueberry1" count="1">farmAlt2-->
+<recipe name="blueberrySeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedBlueberry1" count="1">farmAlt2-->
 	<ingredient name="blueberries" count="1"/>
 </recipe>
 
@@ -695,7 +695,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="rawMeat" count="1"/>
 </recipe>
 
-<recipe name="chrysanthemumSeed" count="1" craft_time="1"> <!--farmAlt1<recipe name="plantedChrysanthemum1" count="1">farmAlt2-->
+<recipe name="chrysanthemumSeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedChrysanthemum1" count="1">farmAlt2-->
 	<ingredient name="chrysanthemumPlant" count="1"/>
 </recipe>
 <recipe name="clayRoofBlock" count="1" craft_area="forge" material_based="true">
@@ -1117,11 +1117,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="corn" count="1"/>
 </recipe>
 
-<recipe name="cornSeed" count="1"> <!--farmAlt1<recipe name="plantedCorn1" count="1">farmAlt2-->
+<recipe name="cornSeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedCorn1" count="1">farmAlt2-->
 	<ingredient name="corn" count="1"/>
 </recipe>
 
-<recipe name="cottonSeed" count="1"> <!--farmAlt1<recipe name="plantedCotton1" count="1">farmAlt2-->
+<recipe name="cottonSeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedCotton1" count="1">farmAlt2-->
 	<ingredient name="cottonPlant" count="1"/>
 </recipe>
 
@@ -1360,7 +1360,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="bottledWater" count="1"/>
 </recipe>
 
-<recipe name="goldenrodSeed" count="1"> <!--farmAlt1<recipe name="plantedGoldenrod1" count="1">farmAlt2-->
+<recipe name="goldenrodSeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedGoldenrod1" count="1">farmAlt2-->
 	<ingredient name="goldenrodPlant" count="1"/>
 </recipe>
 
@@ -1508,7 +1508,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="80"/>
 </recipe>
 
-<recipe name="hopSeed" count="1"> <!--farmAlt1<recipe name="plantedHop1" count="1">farmAlt2-->
+<recipe name="hopSeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedHop1" count="1">farmAlt2-->
 	<ingredient name="hopsFlower" count="1"/>
 </recipe>
 
@@ -1845,7 +1845,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="shortMetalPipe" count="4"/>
 </recipe>
 
-<recipe name="mushroomSeed" count="2"> <!--farmAlt1<recipe name="plantedMushroom1" count="1">farmAlt2-->
+<recipe name="mushroomSeed" count="4" craft_time="1"> <!--farmAlt1<recipe name="plantedMushroom1" count="1">farmAlt2-->
 	<ingredient name="mushrooms" count="2"/>
 	<ingredient name="dirtFragment" count="1"/>
 </recipe>
@@ -1949,7 +1949,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="100"/>
 </recipe>
 
-<recipe name="potatoSeed" count="1"> <!--farmAlt1<recipe name="plantedPotato1" count="1">farmAlt2-->
+<recipe name="potatoSeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedPotato1" count="1">farmAlt2-->
 	<ingredient name="potato" count="1"/>
 </recipe>
 
@@ -2554,7 +2554,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="unit_clay" count="1"/>
 </recipe>
 
-<recipe name="yuccaSeed" count="1" craft_time="1"> <!--farmAlt1<recipe name="plantedYucca1" count="1">farmAlt2-->
+<recipe name="yuccaSeed" count="2" craft_time="1"> <!--farmAlt1<recipe name="plantedYucca1" count="1">farmAlt2-->
 	<ingredient name="foodYuccaFruit" count="1"/>
 </recipe>
 
@@ -2809,51 +2809,51 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
   </recipe>
 
 		<!-- Expanded Farming Mod --> 
-	<recipe name="seedWheat" count="1" >
-        <ingredient name="Wheat" count="1" />
+	<recipe name="seedWheat" count="2" craft_time="1">
+        <ingredient name="Wheat" count="2" />
     </recipe>
-	<recipe name="seedGrape" count="1" >
-        <ingredient name="Grapes" count="1" />
+	<recipe name="seedGrape" count="2" craft_time="1">
+        <ingredient name="Grapes" count="2" craft_time="1"/>
     </recipe>
-	<recipe name="seedApple" count="1" >
+	<recipe name="seedApple" count="2" craft_time="1">
         <ingredient name="Apple" count="1" />
     </recipe>
 	
 		<!-- Seed Pack --> 
-	<recipe name="yuccaSeed" count="1" >
+	<recipe name="yuccaSeed" count="5" >
         <ingredient name="seedPack" count="1" />
     </recipe>
-    <recipe name="aloeSeed" count="1" >
+    <recipe name="aloeSeed" count="5" >
         <ingredient name="seedPack" count="1" />
     </recipe>
-    <recipe name="chrysanthemumSeed" count="1" >
+    <recipe name="chrysanthemumSeed" count="5" >
         <ingredient name="seedPack" count="1" />
     </recipe>
-	<recipe name="seedWheat" count="1" >
+	<recipe name="seedWheat" count="5" >
         <ingredient name="seedPack" count="1" />
     </recipe>
-	<recipe name="seedGrape" count="1" >
+	<recipe name="seedGrape" count="5" >
         <ingredient name="seedPack" count="1" />
     </recipe>
-	<recipe name="hopSeed" count="1" >
+	<recipe name="hopSeed" count="5" >
         <ingredient name="seedPack" count="1" />
     </recipe>
-	<recipe name="seedApple" count="1" >
+	<recipe name="seedApple" count="5" >
         <ingredient name="seedPack" count="1" />
     </recipe>
-<recipe name="blueberrySeed" count="1">
+<recipe name="blueberrySeed" count="5">
 	<ingredient name="seedPack" count="1"/>
 </recipe>
-<recipe name="cornSeed" count="1">
+<recipe name="cornSeed" count="5">
 	<ingredient name="seedPack" count="1"/>
 </recipe>
-<recipe name="cottonSeed" count="1">
+<recipe name="cottonSeed" count="5">
 	<ingredient name="seedPack" count="1"/>
 </recipe>
-<recipe name="goldenrodSeed" count="1">
+<recipe name="goldenrodSeed" count="5">
 	<ingredient name="seedPack" count="1"/>
 </recipe>
-<recipe name="potatoSeed" count="1">
+<recipe name="potatoSeed" count="5">
 	<ingredient name="seedPack" count="1"/>
 </recipe>
 
