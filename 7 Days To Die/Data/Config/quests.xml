@@ -866,7 +866,7 @@
 </quest>
 
 <quest id="challenge_sticky" name="Sticky Pages" subtitle="Collect 10 Tantalizing Magazines" description="Loot through dressers and find 10 'tantalizing' magazines for Sticky-Fingered Pete. Just don't shake his hand after." icon="ui_game_symbol_radiation" 
-		repeatable="true" category_key="challenge" offer="Collect 10 Tantalizing Magazines" difficulty="easy">
+		repeatable="false" category_key="challenge" offer="Collect 10 Tantalizing Magazines" difficulty="easy">
 		<objective type="Fetch" id="tantalizingMagazine" value="10" />
 		<reward type="Skill" id="Athletics" value="3" />
 	</quest>

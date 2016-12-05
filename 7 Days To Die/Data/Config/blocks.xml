@@ -11736,7 +11736,7 @@ kind of free
 <block id="1429" name="garageDoorMetal_v1">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="metal" />
-	<property name="MaxDamage" value="2400"/> <!-- need higher hit points to account for their area -->
+	<property name="MaxDamage" value="1200"/> <!-- need higher hit points to account for their area -->
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />
@@ -11790,7 +11790,7 @@ kind of free
 <block id="1431" name="garageDoorMetal_v3">
 	<property name="Class" value="DoorSecure" />
 	<property name="Material" value="Mmetal_hard" />
-	<property name="MaxDamage" value="6000"/> <!-- need higher hit points to account for their area -->
+	<property name="MaxDamage" value="4000"/> <!-- need higher hit points to account for their area -->
 	<property name="Shape" value="ModelEntity" />
 	<property name="Texture" value="241" />
 	<property name="Tag" value="Door" />

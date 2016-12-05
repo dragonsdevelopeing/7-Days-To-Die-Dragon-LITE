@@ -1153,7 +1153,7 @@
 	<property name="Prefab" value="Backpack" />
 	<property name="Class" value="EntityBackpack" />
 	<property name="Parent" value="Backpack" />
-	<property name="TimeStayAfterDeath" value="3600" /> <!-- player death backpacks will go poof after this many seconds. 0 means 0, not infinite. -->
+	<property name="TimeStayAfterDeath" value="1200" /> <!-- player death backpacks will go poof after this many seconds. 0 means 0, not infinite. -->
 	<property name="IsEnemyEntity" value="false" />
 	<property name="LootListOnDeath" value="41" /> <!-- dropped backpack loot list -->
 </entity_class>
